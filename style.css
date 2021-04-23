@@ -214,7 +214,7 @@ body{
 }
 
 .textCont h2{
-    margin-top: 40%;
+    margin-top: 30%;
     padding: 5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 700%;
@@ -368,7 +368,7 @@ body{
 
     .textCont h2{
         margin-top: 10%;
-        font-size: 500%;
+        font-size: 450%;
         font-weight: bold;
     }
 
@@ -394,39 +394,164 @@ body{
     .footer{
         height: 450px;
     }
+
+
 }
 
-
-@media only screen and (min-width: 992px) and (max-width: 1460px){
+@media only screen and (min-width: 992px) and (max-width: 1129px){
     .subCont h3{
         font-size: 700%;
     }
 
     .subCont h2{
-        font-size: 350%;
+        font-size: 400%;
     }
     
     .subCont h4{
-        font-size: 250%;
+        font-size: 270%;
     }
 
     .s1 h2{
-        margin-top: 8%;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 700%;
-        font-weight: bold;
     }
     
     .s1 h3{
-        font-size: 350%;
+        font-size: 400%;
     }
 
     .textCont h2{
-        font-size: 550%;
+        font-size: 600%;
     }
 
     .textCont h3{
+        font-size: 500%;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 1130px) and (max-width: 1219px){
+    .subCont h3{
+        font-size: 800%;
+    }
+
+    .subCont h2{
+        font-size: 450%;
+    }
+    
+    .subCont h4{
+        font-size: 300%;
+    }
+
+    .s1 h2{
+        font-size: 950%;
+    }
+    
+    .s1 h3{
+        font-size: 500%;
+    }
+
+    .textCont h2{
+        font-size: 650%;
+    }
+
+    .textCont h3{
+        font-size: 500%;
+    }
+    
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1269px){
+    .subCont h3{
+        font-size: 850%;
+    }
+
+    .subCont h2{
+        font-size: 450%;
+    }
+    
+    .subCont h4{
+        font-size: 300%;
+    }
+
+    .s1 h2{
+        font-size: 850%;
+    }
+    
+    .s1 h3{
+        font-size: 450%;
+    }
+
+    .textCont h2{
+        font-size: 650%;
+    }
+
+    .textCont h3{
+        font-size: 500%;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1270px) and (max-width: 1409px){
+    .subCont h3{
+        font-size: 900%;
+    }
+
+    .subCont h2{
+        font-size: 500%;
+    }
+    
+    .subCont h4{
+        font-size: 300%;
+    }
+
+    .s1 h2{
+        font-size: 900%;
+    }
+    
+    .s1 h3{
+        font-size: 500%;
+    }
+
+    .textCont h2{
+        font-size: 6400%;
+    }
+
+    .textCont h3{
+        font-size: 500%;
+    }
+    
+}
+
+@media only screen and (min-width: 1410px) and (max-width: 1460px){
+    .subCont h3{
+        font-size: 1000%;
+    }
+
+    .subCont h2{
+        font-size: 500%;
+    }
+    
+    .subCont h4{
         font-size: 350%;
+    }
+
+    .s1 h2{
+        font-size: 950%;
+    }
+    
+    .s1 h3{
+        font-size: 500%;
+    }
+
+    .textCont h2{
+        font-size: 650%;
+    }
+
+    .textCont h3{
+        font-size: 500%;
     }
     
 }
