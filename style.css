@@ -31,7 +31,9 @@ body{
 }
 
 .mainMenu ul{
+    text-align: center;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -211,7 +213,7 @@ body{
 
 .textCont{
     text-align: center;
-    width: 48%;
+    width: 40%;
 }
 
 .textCont h2{
@@ -229,7 +231,7 @@ body{
 .form{
     padding: 7%;
     padding-top: 4%;
-    width: 45%;
+    width: 40%;
 }
 
 .form h2{
@@ -289,13 +291,17 @@ body{
 
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) and (min-width: 320px){
     .logo{
         font-size: 40px;
     }
 
+    .mainMenu ul li{
+        width: 100%;
+    }
+
     .con1{
-        height: 1200px;
+        height: 700px;
     }
 
     .subCont{
@@ -303,16 +309,28 @@ body{
         width: 100%;
     } 
 
+    .subCont h3{
+        font-size: 700%;
+    }
+
+    .subCont h2{
+        font-size: 300%;
+    }
+
+    .subCont h4{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 250%;
+    }
 
     .con2{
-        height: 2200px;
+        height: 1900px;
     }
 
     .con2 h1{
         padding: 3%;
         padding-bottom: 1%;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 500%;
+        font-size: 300%;
         font-weight: bold;
     }
 
@@ -330,11 +348,19 @@ body{
 
 
     .con3{
-        height: 1500px;
+        height: 1200px;
     }
     .s1{
         text-align: center;
         width: 100%;
+    }
+
+    .s1 h2{
+        font-size: 700%;
+    }
+    
+    .s1 h3{
+        font-size: 300%;
     }
 
     .s2{
@@ -351,13 +377,23 @@ body{
         width: 45%;
     }
 
-
     .con4{
-        height: 1000px;
+        height: 800px;
     }
 
     .textCont{
         width: 100%;
+    }
+
+    .textCont h2{
+        margin-top: 10%;
+        font-size: 500%;
+        font-weight: bold;
+    }
+
+    .textCont h3{
+        font-size: 300%;
+        font-weight: bold;
     }
 
     .form{
@@ -377,4 +413,9 @@ body{
     .footer{
         height: 450px;
     }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
 }
