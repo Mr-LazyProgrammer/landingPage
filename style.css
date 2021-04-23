@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    /*border: 1px solid black;*/
+}
+
+/* THE START OF THE LAYOUT */
+body{
+    background: #f4f1de;
+    width: auto;
+    height: auto;
+}
+
+.header{
+}
+
+.logo{
+    text-align: center;
+    font-size: 70px;
+    background: #f2cc8f;
+    padding: 15px;
+}
+
+.logo a{
+    text-decoration: none;
+}
+
+.mainMenu{
+    background: #3d405b;
+}
+
+.mainMenu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.mainMenu ul li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.mainMenu ul span{
+    color: white;
+    margin-top: 19px;
+}
+
+.mainMenu ul li a{
+    margin: auto;
+    padding: 20px;
+    text-decoration: none;
+    color: #f4f1de;
+}
+
+.mainMenu ul li a:hover{
+    font-size: 110%;
+    background: #5a5e87
+}
+/* THE END OF THE LAYOUT */
+
+/* --- THE FIRST SECTION --- */
+.con1{
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    background: #81b29a;
+    height: 600px;
+}
+
+.subCont{
+    text-align: center;
+    width: 45%;
+} 
+
+.subCont h3{
+    margin-top: 8%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1000%;
+    font-weight: bold;
+}
+
+.subCont h2{
+    margin-top: 5%;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+.subCont h4{
+    text-transform: uppercase;
+    margin-top: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 400%;
+    font-weight: bold;
+
+}
+/* --- THE END OF FIRST SECTION --- */
+
+/* THE START OF SECOND SECTION */
+.con3{
+    background: #e07a5f;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.s1{
+    text-align: center;
+    width: 35%;
+}
+
+.s1 h2{
+    margin-top: 8%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1000%;
+    font-weight: bold;
+}
+
+.s1 h3{
+    margin-top: 5%;
+    font-size: 500%;
+    font-weight: bold;
+}
+
+.s2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    width: 50%;
+}
+
+.work{
+    text-align: center;
+    padding-top: 8%;
+    width: 27%;
+}
+
+.work img{
+    margin-left: 10px;
+    padding: auto;
+    width: 80%;
+    border-radius: 100%;
+}
+.work h2{
+    margin-top: 1%;
+}
+/* THE END OF SECOND SECTION */
+
+/* --- OUR TEAM SECTION --- */
+.con2{
+    background: #81b29a;
+    height: 600px;
+}
+
+.con2 h1{
+    padding: 3%;
+    padding-bottom: 1%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.con2 hr{
+    width: 18%;
+    margin-left: 2%;
+}
+
+.profiles{
+    padding-top: 2%;
+    display:flex;
+    justify-content: space-around;
+}
+
+.prof{
+    text-align: center;
+    padding: 10px;
+    width: 20%;
+}
+
+.prof img{
+    margin-left: 10px;
+    padding: 20px;
+    width: 60%;
+    border-radius: 100%;
+}
+
+.prof h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.prof p{
+    padding: 10px;
+}
+/* THE END OF OUR TEAM SECTION */
+
+/* THE START OF FOUTH SECTION */
+.con4{
+    background: #e07a5f;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+
+.textCont{
+    text-align: center;
+    width: 48%;
+}
+
+.textCont h2{
+    margin-top: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 700%;
+    font-weight: bold;
+}
+
+.textCont h3{
+    font-size: 500%;
+    font-weight: bold;
+}
+
+.form{
+    padding: 7%;
+    padding-top: 4%;
+    width: 45%;
+}
+
+.form h2{
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+}
+
+.form label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+
+.form input{
+    font-size: 120%;
+    padding: 20px;
+    width: 400px;
+}
+
+.button{
+    width: 150px;
+}
+/* THE END OF FOURTH SECTION */
+
+/* ---THE FOOTER SECTION --- */
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background: #3d405b;
+}
+
+.child{
+    padding-right: 50px;
+    color: cornsilk;
+    padding-top: 25px;
+}
+
+.child h1{
+    font-size: 100%;
+}
+
+.child ul {
+    padding: 10px;
+}
+
+.child ul li{
+    padding-top: 10px;
+}
+
+.child ul li a{
+    text-decoration: none;
+    color: darkgray;
+}
+/*THE END OF FOOTER SECTION*/
