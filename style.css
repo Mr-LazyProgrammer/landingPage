@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Josefin Sans', sans-serif;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
 }
 
 /* THE START OF THE LAYOUT */
@@ -104,6 +104,7 @@ body{
 .con3{
     background: #e07a5f;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 600px;
 }
@@ -129,6 +130,7 @@ body{
 .s2{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     gap: 2%;
     width: 50%;
 }
@@ -172,6 +174,7 @@ body{
 .profiles{
     padding-top: 2%;
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -201,6 +204,7 @@ body{
 .con4{
     background: #e07a5f;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     height: 600px;
 }
@@ -254,6 +258,7 @@ body{
 .footer{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     height: 200px;
     background: #3d405b;
 }
@@ -300,13 +305,76 @@ body{
 
 
     .con2{
-        height: 1200px;
-    }
-    .con3{
-        height: 1200px;
-    }
-    .con4{
-        height: 1200px;
+        height: 2200px;
     }
 
+    .con2 h1{
+        padding: 3%;
+        padding-bottom: 1%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 500%;
+        font-weight: bold;
+    }
+
+    .con2 hr{
+        width: 25%;
+        margin-left: 4%;
+    }
+
+    .prof{
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+    
+
+
+    .con3{
+        height: 1500px;
+    }
+    .s1{
+        text-align: center;
+        width: 100%;
+    }
+
+    .s2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+        width: 100%;
+        padding: 5%;
+    }
+
+    .work{
+        text-align: center;
+        padding-top: 8%;
+        width: 45%;
+    }
+
+
+    .con4{
+        height: 1000px;
+    }
+
+    .textCont{
+        width: 100%;
+    }
+
+    .form{
+        padding-top: 4%;
+        width: 100%;
+    }
+
+    .textCont h2{
+        margin-top: 20%;
+    }
+
+    .form{
+        padding: 7%;
+        padding-top: 0%;
+    }
+    
+    .footer{
+        height: 450px;
+    }
 }
