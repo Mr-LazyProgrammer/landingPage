@@ -290,7 +290,7 @@ body{
 
 
 /* MEDIA QUERIES */
-@media only screen and (max-width: 480px) and (min-width: 320px){
+@media only screen and (max-width: 480px) and (min-width: 370px){
     .logo{
         font-size: 40px;
     }
@@ -396,6 +396,118 @@ body{
         height: 450px;
     }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 369px){
+    .logo{
+        font-size: 40px;
+    }
+
+    .mainMenu ul li{
+        width: 100%;
+    }
+
+    .subCont{
+        text-align: center;
+        width: 100%;
+    } 
+
+    .subCont h3{
+        font-size: 650%;
+    }
+
+    .subCont h2{
+        font-size: 250%;
+    }
+
+    .subCont h4{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 250%;
+    }
+
+    .con2 h1{
+        padding: 3%;
+        padding-bottom: 1%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 300%;
+        font-weight: bold;
+    }
+
+    .con2 hr{
+        width: 25%;
+        margin-left: 4%;
+    }
+
+    .prof{
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .s1{
+        text-align: center;
+        width: 100%;
+    }
+
+    .s1 h2{
+        font-size: 650%;
+    }
+    
+    .s1 h3{
+        font-size: 250%;
+    }
+
+    .s2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+        width: 100%;
+        padding: 5%;
+    }
+
+    .work{
+        text-align: center;
+        padding-top: 8%;
+        width: 45%;
+    }
+
+    .textCont{
+        width: 100%;
+    }
+
+    .textCont h2{
+        margin-top: 10%;
+        font-size: 400%;
+        font-weight: bold;
+    }
+
+    .textCont h3{
+        font-size: 250%;
+        font-weight: bold;
+    }
+
+    .form{
+        padding-top: 4%;
+        width: 100%;
+    }
+
+    .textCont h2{
+        margin-top: 20%;
+    }
+
+    .form{
+        padding: 7%;
+        padding-top: 0%;
+    }
+
+    .form h2{
+        size: 100%;
+    }
+    
+    .footer{
+        height: 450px;
+    }
+}
+
 
 @media only screen and (min-width: 992px) and (max-width: 1129px){
     .subCont h3{
