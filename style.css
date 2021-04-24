@@ -256,8 +256,10 @@ body{
 
 /* ---THE FOOTER SECTION --- */
 .footer{
+    padding: 2%;
     display: flex;
     justify-content: center;
+    text-align: center;
     flex-wrap: wrap;
     background: #3d405b;
 }
@@ -272,6 +274,7 @@ body{
 }
 
 .child ul {
+    list-style: none;
     padding: 10px;
 }
 
